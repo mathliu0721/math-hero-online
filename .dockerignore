@@ -1,0 +1,8 @@
+.env
+.env.*
+.data
+.runtime
+outputs
+.git
+wechat
+tests

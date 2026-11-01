@@ -1,0 +1,112 @@
+{
+  "roles": {
+    "regression": {
+      "name": "回归分析",
+      "en": "REGRESSION ANALYSIS",
+      "math": "y = β₀ + β₁x",
+      "description": "每夜可【拟合】一名玩家，由法官出示其阵营（正义 / 异常 / 混沌）。拟合揭示真相，但请小心异常值的干扰。",
+      "camp": "justice",
+      "image": "/assets/regression.png"
+    },
+    "confidence": {
+      "name": "置信区间",
+      "en": "CONFIDENCE INTERVAL",
+      "math": "μ ± z·σ/√n",
+      "description": "持有「置信药」（救 1 次）与「区间药」（毒 1 次）。每夜得知被攻击的目标，选择拯救或毒杀——以 95% 的把握。",
+      "camp": "justice",
+      "image": "/assets/confidence.png"
+    },
+    "anova": {
+      "name": "方差分析",
+      "en": "ANALYSIS OF VARIANCE",
+      "math": "F = MSB / MSW",
+      "description": "任何方式出局时，可发动【F 检验】：公开带走一名玩家。组间差异显著，真相终将显现。",
+      "camp": "justice",
+      "image": "/assets/anova.png"
+    },
+    "bayes": {
+      "name": "贝叶斯定理",
+      "en": "BAYES' THEOREM",
+      "math": "P(A|B) = P(B|A)·P(A)/P(B)",
+      "description": "每夜为一名玩家【更新先验】，使其免疫当晚的剔除，不能选择自己。后验概率会告诉你谁值得信任。",
+      "camp": "justice",
+      "image": "/assets/bayes.png"
+    },
+    "fool": {
+      "name": "大数定律",
+      "en": "LAW OF LARGE NUMBERS",
+      "math": "X̄ → μ  (n → ∞)",
+      "description": "白天被公投出局时可翻牌免死一次（翻牌后永久失去能力）。次数足够多，平均值终将收敛到真相。",
+      "camp": "justice",
+      "image": "/assets/fool.png"
+    },
+    "outlier": {
+      "name": "异常值",
+      "en": "OUTLIER",
+      "math": "|x − x̄| > 3σ",
+      "description": "每晚与同伴共同【剔除】一名玩家；白天可自爆进入黑夜。隐藏于数据之中，污染一切统计推断。",
+      "camp": "evil",
+      "image": "/assets/outlier.png"
+    },
+    "svd": {
+      "name": "奇异值分解",
+      "en": "SINGULAR VALUE DECOMPOSITION",
+      "math": "A = UΣVᵀ",
+      "description": "独立阵营，只为自己而战。夜晚可【吞噬】一名被剔除玩家的真实阵营。目标是：活到最后，成为唯一的奇异值。",
+      "camp": "neutral",
+      "image": "/assets/svd.png"
+    },
+    "normal": {
+      "name": "正态分布",
+      "en": "NORMAL DISTRIBUTION",
+      "math": "N(μ, σ²) · 中心极限定理",
+      "description": "无特殊能力。你是数据集的主体，是中心极限定理的基石——用推理与投票，把异常值剔除出局。",
+      "camp": "justice",
+      "image": "/assets/normal.png"
+    }
+  },
+  "formulas": {
+    "hopital": {
+      "name": "洛必达法则",
+      "en": "L'HÔPITAL'S RULE",
+      "math": "lim",
+      "description": "白天公投前打出：跳过本次公投，无人出局。\n—— 0/0 型僵局，法则化解。",
+      "image": "/assets/hopital.png"
+    },
+    "taylor": {
+      "name": "泰勒展开",
+      "en": "TAYLOR EXPANSION",
+      "math": "Σ",
+      "description": "打出后，立即查看任意一名存活玩家的阵营。\n—— 局部近似，逼近真相。",
+      "image": "/assets/taylor.png"
+    },
+    "lagrange": {
+      "name": "拉格朗日中值定理",
+      "en": "MEAN VALUE THEOREM",
+      "math": "f′(c)",
+      "description": "与任意一名玩家【公开连线】：双方各自公开一条已知信息，禁止撒谎，先到先得。",
+      "image": "/assets/lagrange.png"
+    },
+    "fourier": {
+      "name": "傅里叶变换",
+      "en": "FOURIER TRANSFORM",
+      "math": "ℱ",
+      "description": "公投结束后打出：将最高票翻转为最低票，由次高票替代出局。\n—— 域转换，乾坤倒转。",
+      "image": "/assets/fourier.png"
+    },
+    "cauchy": {
+      "name": "柯西收敛准则",
+      "en": "CAUCHY CONVERGENCE",
+      "math": "ε–N",
+      "description": "指定一名玩家：本日不能投票，也不能被投票。\n—— 收敛判定，拒绝波动。",
+      "image": "/assets/cauchy.png"
+    },
+    "riemann": {
+      "name": "黎曼积分",
+      "en": "RIEMANN INTEGRAL",
+      "math": "∫",
+      "description": "指定一名已出局玩家：其遗言延长至下一轮白天。\n—— 面积求和，信息不灭。",
+      "image": "/assets/riemann.png"
+    }
+  }
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "id": "T01",
+    "category": "trivia",
+    "stem": "0.999… 与 1 谁更大？",
+    "answer": "相等：1 = 0.999…",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T02",
+    "category": "trivia",
+    "stem": "欧拉公式 e^(iπ) + 1 = ？",
+    "answer": "0",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T03",
+    "category": "trivia",
+    "stem": "统计学中 p 值小于多少通常认为「结果显著」？",
+    "answer": "0.05",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T04",
+    "category": "trivia",
+    "stem": "圆周率 π 小数点后第 5 位是几？",
+    "answer": "9（π = 3.14159…）",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T05",
+    "category": "trivia",
+    "stem": "洛必达法则用来求哪类极限？",
+    "answer": "0/0 或 ∞/∞ 型",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T06",
+    "category": "trivia",
+    "stem": "自然常数 e 约等于多少（保留 3 位）？",
+    "answer": "2.718",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T07",
+    "category": "trivia",
+    "stem": "唯一的偶质数是几？",
+    "answer": "2",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T08",
+    "category": "trivia",
+    "stem": "三角形内角和是多少度？",
+    "answer": "180°",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T09",
+    "category": "trivia",
+    "stem": "正态分布曲线的对称轴是哪个参数？",
+    "answer": "均值 μ",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T10",
+    "category": "trivia",
+    "stem": "勾股定理的公式是？",
+    "answer": "a² + b² = c²",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T11",
+    "category": "trivia",
+    "stem": "1 到 100 的所有整数之和是多少？",
+    "answer": "5050",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T12",
+    "category": "trivia",
+    "stem": "y = ln(x) 的导数是？",
+    "answer": "1/x",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T13",
+    "category": "trivia",
+    "stem": "被称为「近代统计学之父」的数学家是？",
+    "answer": "费希尔（Fisher）",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T14",
+    "category": "trivia",
+    "stem": "最小的完全数是多少？",
+    "answer": "6（1 + 2 + 3 = 6）",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T15",
+    "category": "trivia",
+    "stem": "黄金分割比约等于多少（保留 3 位）？",
+    "answer": "1.618",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T16",
+    "category": "trivia",
+    "stem": "掷一颗均匀骰子，掷出 6 点的概率是？",
+    "answer": "1/6",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T17",
+    "category": "trivia",
+    "stem": "斐波那契数列的前两项是？",
+    "answer": "1，1",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T18",
+    "category": "trivia",
+    "stem": "微分与积分互逆关系称为什么定理？",
+    "answer": "微积分基本定理",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T19",
+    "category": "trivia",
+    "stem": "半径为 r 的圆面积公式是？",
+    "answer": "S = πr²",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "T20",
+    "category": "trivia",
+    "stem": "标准正态分布的均值与方差分别是？",
+    "answer": "均值 0，方差 1",
+    "subject": "数学冷知识"
+  },
+  {
+    "id": "P01",
+    "category": "pro",
+    "stem": "求 lim n(e − (1+1/n)ⁿ)",
+    "answer": "e/2",
+    "subject": "数学分析·极限"
+  },
+  {
+    "id": "P02",
+    "category": "pro",
+    "stem": "a₁ = √2，aₙ₊₁ = √(2 + aₙ)，求极限",
+    "answer": "2",
+    "subject": "数学分析·极限"
+  },
+  {
+    "id": "P03",
+    "category": "pro",
+    "stem": "闭区间上的连续函数一定一致连续吗？",
+    "answer": "是（Cantor 定理）",
+    "subject": "数学分析·极限"
+  },
+  {
+    "id": "P04",
+    "category": "pro",
+    "stem": "f(0)=0 且 lim f(x)/x 存在，f 在 0 处可导？",
+    "answer": "是，f′(0)=lim f(x)/x",
+    "subject": "数学分析·极限"
+  },
+  {
+    "id": "P05",
+    "category": "pro",
+    "stem": "闭区间连续函数能否取到上下确界？",
+    "answer": "能（Weierstrass 最值定理）",
+    "subject": "数学分析·极限"
+  },
+  {
+    "id": "P06",
+    "category": "pro",
+    "stem": "f′(a)·f′(b) < 0，是否 ∃ξ 使 f′(ξ)=0？",
+    "answer": "存在（Darboux 定理）",
+    "subject": "数学分析·微分"
+  },
+  {
+    "id": "P07",
+    "category": "pro",
+    "stem": "求 lim (eˣ − 1 − x − x²/2) / x³（x→0）",
+    "answer": "1/6",
+    "subject": "数学分析·微分"
+  },
+  {
+    "id": "P08",
+    "category": "pro",
+    "stem": "Lagrange 中值定理的结论？",
+    "answer": "f(b) − f(a) = f′(ξ)(b − a)",
+    "subject": "数学分析·微分"
+  },
+  {
+    "id": "P09",
+    "category": "pro",
+    "stem": "f(a)=f(b)=0 且 ∃c 使 f(c)>0，证 ∃ξ 使 f″(ξ)<0",
+    "answer": "Fermat 定理 + Taylor 展开",
+    "subject": "数学分析·微分"
+  },
+  {
+    "id": "P10",
+    "category": "pro",
+    "stem": "Taylor 定理带 Lagrange 余项的表述？",
+    "answer": "R = f⁽ⁿ⁺¹⁾(ξ)(x−x₀)ⁿ⁺¹/(n+1)!",
+    "subject": "数学分析·微分"
+  },
+  {
+    "id": "P11",
+    "category": "pro",
+    "stem": "计算 Gauss 积分 ∫₀^∞ e^(−x²) dx",
+    "answer": "√π / 2",
+    "subject": "数学分析·积分"
+  },
+  {
+    "id": "P12",
+    "category": "pro",
+    "stem": "Newton–Leibniz 公式成立的前提？",
+    "answer": "f 可积且 F′ = f",
+    "subject": "数学分析·积分"
+  },
+  {
+    "id": "P13",
+    "category": "pro",
+    "stem": "f 可积则 F 连续？f 连续则 F 可导？",
+    "answer": "是；是，且 F′ = f",
+    "subject": "数学分析·积分"
+  },
+  {
+    "id": "P14",
+    "category": "pro",
+    "stem": "积分第一中值定理的结论？",
+    "answer": "∫fg = f(ξ)∫g（g 不变号）",
+    "subject": "数学分析·积分"
+  },
+  {
+    "id": "P15",
+    "category": "pro",
+    "stem": "判别 ∫₁^∞ sin(x)/x dx 的收敛性",
+    "answer": "条件收敛（Dirichlet）",
+    "subject": "数学分析·积分"
+  },
+  {
+    "id": "P16",
+    "category": "pro",
+    "stem": "判断级数 Σ 1/n 的收敛性",
+    "answer": "发散（调和级数）",
+    "subject": "数学分析·级数"
+  },
+  {
+    "id": "P17",
+    "category": "pro",
+    "stem": "判断级数 Σ(−1)ⁿ/√n 的收敛性",
+    "answer": "条件收敛（Leibniz）",
+    "subject": "数学分析·级数"
+  },
+  {
+    "id": "P18",
+    "category": "pro",
+    "stem": "幂级数 Σ xⁿ/n 的收敛域？",
+    "answer": "[−1, 1)",
+    "subject": "数学分析·级数"
+  },
+  {
+    "id": "P19",
+    "category": "pro",
+    "stem": "Weierstrass 判别法（M 判别法）的内容？",
+    "answer": "|uₙ| ≤ Mₙ 且 ΣMₙ 收敛 ⇒ 一致收敛",
+    "subject": "数学分析·级数"
+  },
+  {
+    "id": "P20",
+    "category": "pro",
+    "stem": "Gamma 函数 Γ(s) 的递推式与特殊值？",
+    "answer": "Γ(s+1)=sΓ(s)，Γ(1/2)=√π",
+    "subject": "数学分析·级数"
+  },
+  {
+    "id": "P21",
+    "category": "pro",
+    "stem": "Eisenstein 判别法的三个条件？",
+    "answer": "p∤aₙ，p|aᵢ，p²∤a₀",
+    "subject": "高等代数·多项式"
+  },
+  {
+    "id": "P22",
+    "category": "pro",
+    "stem": "Vandermonde 行列式 Vₙ = ？",
+    "answer": "∏(xᵢ − xⱼ)，1 ≤ j < i ≤ n",
+    "subject": "高等代数·行列式"
+  },
+  {
+    "id": "P23",
+    "category": "pro",
+    "stem": "Cramer 法则的适用条件与解？",
+    "answer": "n×n，D ≠ 0，xᵢ = Dᵢ/D",
+    "subject": "高等代数·行列式"
+  },
+  {
+    "id": "P24",
+    "category": "pro",
+    "stem": "实对称矩阵的特征值有何特殊性质？",
+    "answer": "全为实数；异特征值特征向量正交",
+    "subject": "高等代数·矩阵"
+  },
+  {
+    "id": "P25",
+    "category": "pro",
+    "stem": "Cayley–Hamilton 定理的内容？",
+    "answer": "f(A) = 0，f(λ) = det(λI − A)",
+    "subject": "高等代数·矩阵"
+  },
+  {
+    "id": "P26",
+    "category": "pro",
+    "stem": "矩阵可对角化的充要条件？",
+    "answer": "几何重数 = 代数重数",
+    "subject": "高等代数·矩阵"
+  },
+  {
+    "id": "P27",
+    "category": "pro",
+    "stem": "维数公式 dim(V₁+V₂) = ？",
+    "answer": "dimV₁ + dimV₂ − dim(V₁∩V₂)",
+    "subject": "高等代数·线性空间"
+  },
+  {
+    "id": "P28",
+    "category": "pro",
+    "stem": "基变换后线性变换的矩阵如何变化？",
+    "answer": "B = P⁻¹AP（相似变换）",
+    "subject": "高等代数·线性变换"
+  },
+  {
+    "id": "P29",
+    "category": "pro",
+    "stem": "Jordan 块 J(λ,k) 的结构？",
+    "answer": "λI + N，N 幂零，超对角线为 1",
+    "subject": "高等代数·线性变换"
+  },
+  {
+    "id": "P30",
+    "category": "pro",
+    "stem": "Schmidt 正交化公式？",
+    "answer": "βₖ = αₖ − Σ(αₖ,βⱼ)/(βⱼ,βⱼ)·βⱼ",
+    "subject": "高等代数·线性变换"
+  }
+]
